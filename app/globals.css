@@ -67,3 +67,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+body{
+  background-color: hsl(230, 30%, 85%);
+}
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: hsl(223, 54%, 34%);
+  }
+}

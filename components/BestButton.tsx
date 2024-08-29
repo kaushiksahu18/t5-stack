@@ -10,7 +10,6 @@ export function BestButton({
   children?: React.ReactNode;
 }) {
   const { theme } = useTheme();
-
   return (
     <Button
       onClick={() => (document.body.style.backgroundColor = getColor(theme))}
